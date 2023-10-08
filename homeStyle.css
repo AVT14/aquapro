@@ -1,0 +1,102 @@
+body{
+    background-color: #273F4B;
+    color: white;
+    font-size: 25px;
+}
+.abc{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.xyz{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+.xyz:hover{
+    color: #FF4F48;
+}
+#Aqua-p-ro{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+#Aqua-p-ro:hover{
+    color: lightgrey;
+}
+#pho1{
+    width: 100%;
+    height: 650px;
+    background-image: url("https://static.wixstatic.com/media/ea26fd_1680ae97e5a4400bb306ca8fdb4e30f7~mv2.jpg/v1/fill/w_1276,h_675,al_c,q_85,enc_auto/ea26fd_1680ae97e5a4400bb306ca8fdb4e30f7~mv2.jpg");
+background-size: cover;
+}
+#i-pho1{
+    margin-left: 800px;
+    padding-top: 250px;
+}
+#button-holder{
+    margin-left: 800px;
+}
+#button-1{
+    font-size: 14px;
+    color: white;
+    border: 7px solid #FFDB58;
+    background-color: navy;
+    width: 240px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#button-1:hover{
+    width: 260px;
+    border-radius: 20px;
+    color: orchid;
+}
+#Options-flex-container{
+    justify-content: space-around;
+    display: flex;
+}
+#Men-side{
+    text-decoration: none;
+    color: gold;
+    animation-name: bla1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    }
+
+@keyframes bla{
+    0%{ margin: 0px; }
+    50%{ margin-left: 200px; }
+    100%{ margin-right: 0px; }
+}
+#Women-side{
+    text-decoration: none;
+    color: aqua;
+    animation-name: bla;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  }
+
+@keyframes bla1{
+    0%{ margin: 0px; }
+    50%{ margin-left: 200px; }
+    100%{ margin-right: 0px; }
+}
+#Accesories-side{
+    text-decoration: none;
+    color: violet;
+    animation-name: bla2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    }
+
+@keyframes bla2{
+    0%{ margin: 0px; }
+    50%{ margin-left: 200px; }
+    100%{ margin-right: 0px; }
+}
+
+
